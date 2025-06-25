@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>DEEPPAY</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🌐 DEEPPAY</h1>
+    <p>Sambungkan Wallet TON kamu untuk melanjutkan.</p>
+    <button id="connect-btn">🔗 Connect Wallet</button>
+    <p id="address" class="hidden"></p>
+
+    <div id="pay-section" class="hidden">
+      <h2>💸 Pembayaran WiFi</h2>
+      <p>Silakan klik tombol di bawah untuk membayar WiFi DEEP NET</p>
+      <button id="pay-btn">💰 Bayar 0.1 TON</button>
+      <p id="status"></p>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/@tonconnect/sdk@latest"></script>
+  <script src="connect.js"></script>
+</body>
+</html>
